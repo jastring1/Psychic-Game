@@ -46,8 +46,9 @@ document.onkeyup = function (event) {
         wins++;
         numGuesses = 10;
         guessedLetters = "";
+        userGuess="";
         randomLetter = letters[Math.floor(Math.random() * letters.length)];
-        userGuess = event.key;
+        
     }
 //Once the letters have been checked, we will check to see if the number of guesses is at 0. If so then we will
 //increment the losses variable, set the number of guesses back to 10, clear the array of guesses and generate a new random letter
@@ -55,8 +56,9 @@ document.onkeyup = function (event) {
         losses++;
         numGuesses = 10;
         guessedLetters = "";
+        userGuess="";
         randomLetter = letters[Math.floor(Math.random() * letters.length)];
-        userGuess = event.key;
+        
 
     }
 // Output that will be updated each time a key is pressed
