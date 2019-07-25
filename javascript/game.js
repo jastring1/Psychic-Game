@@ -13,7 +13,6 @@ var losses = 0;
 var userGuess;
 var guessedLetters = "";
 var numGuesses = 10;
-var totalGuesses = 10;
 
 // These Variables will be accessing the HTML document to update each time the user inputs
 var directionsText = document.getElementById("directions-text");
